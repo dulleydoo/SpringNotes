@@ -30,12 +30,12 @@ Bean:
   - @RequestParam allows you to send parameters in the get request and use them in Java
 
 
-@Entity - used to mark the persistence objects stores as records in the database
-@Autowired - the process of placing an instance of one bean into the specified field in an instance of another bean
-@Id - specifies the primary key of an entity 
-@JoinColumn - helps us specify the column we'll use for joining an entity association or element collection 
-@Column - used to specify the mapped column for a persistent property or field 
-@GeneratedValue - provides for the specification of generation strategies for the values of primary keys 
-@Bean - useful if you have a class that requires an instance of another class as a property 
-@RequestParam - allows you to send parameters in the get request and use them in Java
+  - @Entity used to mark the persistence objects stores as records in the database
+  - @Autowired the process of placing an instance of one bean into the specified field in an instance of another bean
+  - @Id specifies the primary key of an entity 
+  - @JoinColumn helps us specify the column we'll use for joining an entity association or element collection 
+  - @Column used to specify the mapped column for a persistent property or field 
+  - @GeneratedValue provides for the specification of generation strategies for the values of primary keys 
+  - @Bean useful if you have a class that requires an instance of another class as a property 
+  - @RequestParam allows you to send parameters in the get request and use them in Java
 
